@@ -1,0 +1,122 @@
+<nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg navbar-inverse">
+			  <div class="container">
+				<div class="navbar-header">
+				  
+					<a class="navbar-brand" href="#"> Don Hulyo</a>
+				  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				  </button>
+				
+				  </div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="#navbarMenu">
+				  <ul class="nav navbar-nav navbar-right ml_auto">
+					<li class="active">
+						<a href="#"> Home
+						</a>
+					 </li>
+					<li>
+						<a href="#">About us </a>
+					</li>
+					  
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products 
+						  <span class="caret"></span>
+					  </a>
+						
+					  <ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">One more separated link</a></li>
+					  </ul>
+					</li>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		  
+
+
+
+=======================================================================================================================================================
+
+
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
+					  <div class="container-fluid">
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+					
+        						<img alt="Brand" id="logo" src="logo.png">
+      						
+						  </div>
+						<div id="navbar" class="navbar-collapse collapse">
+						  <ul class="nav navbar-nav navbar-right mar-auto" id="menu">
+							<li class="active" > <a href="#">Home</a></button></li>
+							<li><a href="#about">About Us</a></li>
+							<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li class="dropdown-header">Nav header</li>
+								<li><a href="#">Separated link</a></li>
+								<li><a href="#">One more separated link</a></li>
+							  </ul>
+							</li>
+							  <li><a href="#about">Gallery</a></li>
+							  <li><a href="#contact">Testimonials</a></li>
+							  <li><a href="#contact">FAQs</a></li>
+							  <li><a href="#contact">Order Form</a></li>
+							  <li><a href="#contact">Contact Us</a></li>
+						  </ul>
+						</div>
+					  </div>
+					</nav>
+
+				  </div>
+    </div>
+
+
+
+
+
+1054.50 px
+
+454.50 px
+
+====================================================
+
+<div class="container">
+			<div class="row"> 
+				<div class="col-lg-6" id="footerlist">
+					<p><a href="#">Home</a> </p>
+					<p><a href="#">About Us</a> </p>
+					<p><a href="#">Products</a> </p>
+					<p><a href="#">Gallery</a> </p>
+					<p><a href="#">Testimonials</a> </p>
+					<p><a href="#">FAQs</a> </p>
+					<p><a href="#">Order Form</a> </p>
+					<p><a href="#">Contact Us</a> </p>
+				 </div> 
+				 <div class="col-lg-6"> 
+					<p>© 2021 Don Hulyo Hot Sauce </p>
+					<a href="#">Privacy</a> · <a href="#">Terms</a>
+				 </div>
+				<div class="col-lg-6"> 
+					<p class="pull-right"><a href="#">Back to top</a></p>
+				 </div>
+			</div>
+		</div>
