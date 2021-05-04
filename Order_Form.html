@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<title> Order Form </title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="orderformstyles.css">
+<link href="headnfoot.css" rel="stylesheet">
+
+</head>
+
+<body>
+<!--======================== Nav Bar  ========================-->
+				  <nav class="navbar navbar-fixed-top navbar-inverse">
+					  <div class="container-fluid">
+						 <!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+							
+								<a class="navbar-brand" href="index.html" style="padding-top: 0px; padding-bottom: 8px;" ><img src="logo2.png" alt="logo banner" width="250" height="100" class="img-responsive" style="padding-top: 3px;" ></a>
+							
+						  </div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  <ul class="nav navbar-nav navbar-right mar-auto" id="menu">
+							<li class="dropdown">
+							  <li> <a href="index.html">Home</a></li>
+								<li> <a href="about_us.html">About Us</a></li>
+							  	  <li class="dropdown">
+							  		 <a href="#" class="dropdown-toggle dropdown-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+										<!--Product Category-->	
+								<ul class="dropdown-menu">
+								<li><a href="products-condiments.html">Condiments</a></li>
+								<li><a href="products-spice.html">Spice & Herbs</a></li>
+								<li><a href="products-nuts.html">Nuts</a></li>
+								<li role="separator" class="divider"></li>
+								<li class="dropdown-header">Others</li>
+								<li><a href="products-valuepacks.html">Value Packs & Combos</a></li>
+								<li><a href="products-special-offers.html">Special Offers & Gift Sets</a></li>
+							  </ul>
+							 
+						  					
+						  
+							  <li><a href="Gallery.html">Gallery</a></li>
+							  <li> <a href="Reviews.html">Reviews</a></li>
+							  <li><a href="FAQS.html">FAQs</a></li>
+							  <li  class="active"><a href="Order_Form.html">Order Form</a></li>
+							  <li> <a href="Contact_Us.html">Contact Us</a></li>
+							  </li>
+							</li>						  
+						  </ul>
+						</div>
+					  </div>
+					</nav>
+
+<!-- ============================ ORDER FORM ============================ -->
+
+<form>
+<div class="container">
+<img src="logo.png" width="100px">
+<div class="title">Order Form</div>
+<div class="content">
+
+	
+	<!-- USER DETAILS -->
+	<div class="subtitle">Customer Details</div>
+	<div class="user-details">
+		<!-- EMAIL -->
+		<div class="input-field">
+			<span class="details">Email</span>
+			<input type="email" placeholder="Enter your Email">
+		</div>
+		<!-- FULL NAME -->
+		<div class="input-field">
+			<span class="details">Full Name</span>
+			<input type="text" placeholder="Enter your Full Name" required>
+		</div>
+		<!-- CONTACT -->
+		<div class="input-field">
+			<span class="details">Contact Number</span>
+			<input type="number" placeholder="Enter your Contact Number" required>
+		</div>
+		
+	</div>
+	
+	<!-- SHIPPING DETAILS -->
+	<div class="subtitle">Shipping Details</div>
+	<div class="shipping-details">
+	
+		<!-- ADDRESS 1 -->
+		<div class="input-field">
+			<span class="details">Address Line 1</span>
+			<input type="text" placeholder="Enter your House Number, Street Address" required>
+		</div>
+		<!-- ADDRESS 2 -->
+		<div class="input-field">
+			<span class="details">Address Line 2</span>
+			<input type="text" placeholder="Enter your Barangay, District" required>
+		</div>
+		<!-- CITY -->
+		<div class="input-field">
+			<span class="details">City</span>
+			<input type="text" placeholder="Enter your City" required>
+		</div>
+		<!-- PROVINCE -->
+		<div class="input-field">
+			<span class="details">Province</span>
+			<input type="text" placeholder="Enter your Province" required>
+		</div>
+		<!-- ZIP -->
+		<div class="input-field">
+			<span class="details">Zip Code</span>
+			<input type="number" placeholder="Enter your Zip Code" required>
+		</div>
+		
+	</div>
+	
+	<!-- PAYMENT DETAILS -->
+	<div class="subtitle">Mode of Payment</div>
+	<div class="payment-details">
+	
+		<label class="radio-label"> COD
+			<input type="radio">
+		</label>
+		
+		<label class="radio-label"> GCash
+			<input type="radio">
+		</label>
+		
+		<label class="radio-label"> PayMaya
+			<input type="radio">
+		</label>
+		
+		<label class="radio-label"> Palawan Express
+			<input type="radio">
+		</label>
+		
+		<label class="radio-label"> Credit Card
+			<input type="radio">
+		</label>
+		
+		<label class="radio-label"> Debit Card
+			<input type="radio">
+		</label>
+	</div>
+	
+	
+	<!-- SHIPPING DETAILS -->
+	<div class="subtitle">Products 	</div>
+	<div class="product-details">
+		
+		<label class="box"> Hot Sauce Original
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Inferno Black Reaper Sauce
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Inferno-X Sauce
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Hot Sauce Value Pack
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Hot Sauce Combo
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Inferno Hot Sauce Combo
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Santor Sukang Labuyo
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Santor Carolina Reaper
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Spiced Vinegar Combo
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Inferno Dust-X Dry Hot Sauce
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> 100% Pure Carolina Reaper Powder
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Reaper Adobo Peanuts
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> 100% Pure Carolina Reaper Powder
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> Reaper Adobo Peanuts
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+		
+		<label class="box"> 100% Pure Carolina Reaper Powder
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<div class="input-field">
+			<span class="details">Quantity</span>
+			<input type="number" placeholder="0">
+		</div>
+
+	</div>
+	 
+		<div class="button">
+          <input type="submit" value="Confirm Order">
+        </div>
+		
+		<div class="button">
+		  <input type="reset" value="Clear">
+        </div>
+		
+		<div class="button">
+		 <a href="homepage2.html"> <input type="button" value="Cancel"> </a>
+        </div>
+	
+	
+	
+	</div>
+	 </div>
+		</form>
+		
+	<img src = "cover1.jpg" width = "100%">
+
+
+	<!-- ======================================= FOOTER ======================================= -->
+	<footer class=" col-sm-12 footer-bs">
+		<div class="row">
+			
+			<!-- LOGO & DESCRIPT -->
+        	<div class="col-sm-3 footer-brand animated fadeInLeft">
+            	<img src="logo.png" alt="logo banner" width="130" height="130" style="align-items: center; padding-bottom: 14px; ">
+                <p >Don Hulyo Hot Sauce is a small batch artisanal hot sauce company based in Manila founded in 2017. Our mission is to be part of every peoples lives by providing the highest quality and best tasting product anywhere in the world.</p>
+				<p class="copyright-text" style="margin-bottom: 5px;"> © 2021. All Rights Reserved</p>	
+            </div>
+			
+			<!-- MENU -->
+        	<<div class="col-sm-2 footer-nav animated fadeInUp">
+            	<h4 class="text-center">Menu </h4>
+            	<div class="col-sm-6">
+                    <ul class="list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="products-condiments.html">Products</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            	<div class="col-sm-6">
+                    <ul class="list">
+                        <li><a href="Reviews.html">Reviews</a></li>
+                        <li><a href="FAQS.html">FAQs</a></li>
+                        <li><a href="Order_Form.html">Order Form</a></li>
+                        <li><a href="Contact_Us.html">Contact Us</a></li>
+					</ul>
+                </div>
+            </div>
+			
+			<!-- SOCIAL MEDIA -->
+        	<div class="col-sm-2 footer-social animated fadeInDown">
+            	<h4>Follow Us</h4>
+            	<ul>
+                	<li><a href="https://www.facebook.com/DonHulyoHotSauce/">Facebook</a></li>
+                	<li><a href="https://www.instagram.com/donhulyohotsauce/?hl=en">Instagram</a></li>
+                </ul>
+				<br>
+				<h4>Available in </h4>
+            	<ul>
+                	<li><a href="https://www.lazada.com.ph/shop/don-hulyo-hot-sauce/">Lazada</a></li>
+                	<li><a href="https://shopee.ph/donhulyohotsauce?categoryId=363&itemId=2430156565">Shopee</a></li>
+                </ul>
+            </div>
+			
+			<!-- CONTACT US  -->
+        	<div class="col-sm-3 footer-ns animated fadeInRight">
+            	<h4>Contact Us</h4>
+                <p><i class="glyphicon glyphicon-earphone"></i> 09175009324</p>
+				<p><i class="glyphicon glyphicon-envelope"></i>  donhulyohotsauce@gmail.com </p>
+				<p><i class="glyphicon glyphicon-comment"> <a href="https://www.facebook.com/DonHulyoHotSauce/"></a> </i> Don Hulyo Hot Sauce</p>
+				<p><i class="glyphicon glyphicon-map-marker"></i> 135 P.Santos St.Malibay, Pasay City, Metro Manila, Philippines </p>
+			
+            </div> 
+			
+			<!--WEB DEVELOPERS -->
+			<div class="col-sm-2 footer-social animated fadeInDown">
+            	<h4>Web Developers:</h4>
+				<p style="line-height: 25px;"> Alegre, Christina Beatrice G.</p>
+				<p style="line-height: 25px;"> Britanico, Elixeline E. </p>
+				<p style="line-height: 25px;"> Espejo, Tia Julienne P. </p>
+				<p style="line-height: 25px;"> Zaguirre, Stephanie Anne A. </p>
+			
+			</div>
+		  </div>
+	
+	</footer>
+   
+	  
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
