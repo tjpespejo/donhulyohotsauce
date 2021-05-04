@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/* ================= OVERALL  ===================== */
+	
+	@font-face {
+		font-family: 'tequila_sunriseregular';
+		src: url('tequilasunrise-regular-webfont.woff2') format('woff2'),
+			 url('tequilasunrise-regular-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	body {
+		font-family: roboto;
+		background-color: #333533;
+		margin:0px;
+		padding: 0px;
+	}
+
+	h1{
+		font-weight: bold;
+		text-shadow: 3px 3px 5px black;
+		letter-spacing: 2px;
+	}
+
+
+	#logo {
+		width: 100;
+		height: 200;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+
+	
+	/* ======= CAROUSEL ========== */
+
+	/* Carousel base class */
+	.carousel {
+	  height: 600px;
+	  margin-bottom: 0px;
+	}
+	/* Since positioning the image, we need to help out the caption */
+	.carousel-caption {
+	  z-index: 10;
+	}
+
+	/* Declare heights because of positioning of img element */
+	.carousel .item {
+	  height: 600px;
+	  background-color: #777;
+	}
+	.carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 600px;
+	}	
+
+	/*================ BEST/NEW SELLERS =======================*/
+   div.products{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+   		justify-content: center;
+        align-items: center;  
+    }
+
+    div.img {
+        width: 230px;
+        height: 330px;
+        background-color: #B33935;
+        border-radius: 3px;
+        padding: 20px 10px;
+        margin: 25px 8px;
+        text-align: center;
+        float:left;
+        /* CSS Shadow effect */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+	div.desc {
+        font-family: 'Merriweather', sans-serif;
+        color: white;
+        margin: 5px;
+        font-weight: bold;
+    }
+	
+	div.price {
+        font-family: 'Merriweather', sans-serif;
+        color: white;
+        margin: 5px 3px 3px 5px;
+        font-weight: bold;
+		text-align: left;
+		text-align: center;
+    }
+
+	div.price2 {
+        font-family: 'Merriweather', sans-serif;
+        color: white;
+        margin: 5px 3px 8px 5px;
+        font-weight: bold;
+		text-align: left;
+		text-align: center;
+    }
+
+.imageContainer {
+        width: 100%; 
+        height:800px; 
+        background-image: url(mission.png);	
+		background-repeat: no-repeat;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		
+        }
+
+	
+	
+
+

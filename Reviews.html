@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <title>Contact Us</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="styles2.css" rel="stylesheet">
+	<link href="footer.css" rel="stylesheet">
+	<style>
+	#RevCarousel {
+    width: 80%;
+    height: 30%;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+	
+#RevRow {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width: 80%;
+  background-color: #CB1615;
+  
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+	
+	
+	h1{
+	color:#b51317;
+	}
+	
+	h2{
+	color:white;
+	}
+	
+   .hr-warning{
+  background-image: -webkit-linear-gradient(left, rgba(210,105,30,.8), rgba(210,105,30,.6), rgba(0,0,0,0));
+  height: 5px;
+  margin-bottom:-3px;
+	}
+
+	#RevTitle
+		{
+	color:#f8a300
+		}
+		
+		#example1 {
+background-color: white;
+width: 100%;
+height: 350px;
+  background-image: url(multiplebg2.png), url(multiplebg1.jpg);
+    background-repeat: no-repeat;
+	position: center, center;
+  padding: 40px;
+}
+
+	</style>
+ 
+ 
+  </head>
+  <body>
+	  		<!--======================== Nav Bar  ========================-->
+				  <nav class="navbar navbar-fixed-top navbar-inverse">
+					  <div class="container-fluid">
+						 <!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+							
+								<a class="navbar-brand" href="index.html" style="padding-top: 0px; padding-bottom: 8px;" ><img src="logo2.png" alt="logo banner" width="250" height="100" class="img-responsive" style="padding-top: 3px;" ></a>
+							
+						  </div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  <ul class="nav navbar-nav navbar-right mar-auto" id="menu">
+							<li class="dropdown">
+							  <li> <a href="index.html">Home</a></li>
+								<li> <a href="about_us.html">About Us</a></li>
+							  	  <li class="dropdown">
+							  		 <a href="#" class="dropdown-toggle dropdown-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+										<!--Product Category-->	
+										<ul class="dropdown-menu">
+												<li><a href="products-condiments.html">Condiments</a></li>
+												<li><a href="products-spice.html">Spice & Herbs</a></li>
+												<li><a href="products-nuts.html">Nuts</a></li>
+												<li role="separator" class="divider"></li>
+												<li class="dropdown-header">Others</li>
+												<li><a href="products-valuepacks.html">Value Packs & Combos</a></li>
+												<li><a href="products-special-offers.html">Special Offers & Gift Sets</a></li>
+										</ul>
+							 
+						  					
+						  
+							 <li><a href="Gallery.html">Gallery</a></li>
+							  <li class="active"> <a href="Reviews.html">Reviews</a></li>
+							  <li><a href="FAQS.html">FAQs</a></li>
+							  <li><a href="Order_Form.html">Order Form</a></li>
+							  <li> <a href="Contact_Us.html">Contact Us</a></li>
+							  </li>
+							</li>						  
+						  </ul>
+						</div>
+					  </div>
+					</nav>
+	
+	
+				  
+   	<!-- ======================== Carousel ======================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <img class="first-slide" src="banner.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p><a class="btn btn-lg btn-danger" href="Order_Form.html" role="button">Order Now</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="banner2.png" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+             	<h1>Addictively Good</h1>
+              <p><a class="btn btn-lg btn-danger" href="products-condiments.html" role="button">View Products</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+          <img class="third-slide" src="1picture.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Addictively Good</h1>
+              <p>DON'T PANIC. IT'S ORGANIC. BUT THISS WILL SURELY MAKE YA'LL ADIK.</p>
+              <p><a class="btn btn-lg btn-danger" href="Gallery.html" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+	
+<!-- Testimonials Carousel -->
+	<h1 id="RevTitle" class="display-1 text-center"> Featured Artist Review</h1> <br/>
+	<div id="RevCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#RevCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#RevCarousel" data-slide-to="1" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="artist1.png" alt="First slide">
+          <div class="container">
+            
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="artist2.png" alt="Second slide">
+          <div class="container">
+          
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#RevCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#RevCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+		
+		<!-- Testimonials Gallery-->
+	<br /><br /><br /><br /><br /><br />
+		<h1 id="RevTitle" class="display-1 text-center"> Online Shop Reviews </h1> <br />
+		<center>
+				<div id="RevRow" class="row"> 
+				  <div class="column">
+					<img id = "rev1" class="img-fluid" src="rev1.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev2" class="img-fluid" src="rev2.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev3" class="img-fluid" src="rev3.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev4" class="img-fluid" src="rev4.png" height=350 width=250 alt="Don Hulyo Review"></td>
+				  </div>
+				  <div class="column">
+					<img id = "rev5" class="img-fluid" src="rev5.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev6" class="img-fluid" src="rev6.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev7" class="img-fluid" src="rev7.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev8" class="img-fluid" src="rev8.png" height=350 width=250 alt="Don Hulyo Review"></td>
+				  </div>  
+				  <div class="column">
+					<img id = "rev9" class="img-fluid" src="rev9.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev10" class="img-fluid" src="rev10.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev11" class="img-fluid" src="rev11.png" height=350 width=250  alt="Don Hulyo Review"></td>
+					<img id = "rev12" class="img-fluid" src="rev12.png" height=350 width=250  alt="Don Hulyo Review"></td>
+				  </div>
+				  <div class="column">
+					<img id = "rev13" class="img-fluid" src="rev13.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev14" class="img-fluid" src="rev14.png" height=350 width=250 alt="Don Hulyo Review"></td>
+					<img id = "rev15" class="img-fluid" src="rev15.png" height=350 width=250  alt="Don Hulyo Review"></td>
+					<img id = "rev16" class="img-fluid" src="rev16.png" height=350 width=250  alt="Don Hulyo Review"></td>
+				  </div>
+				</div>
+		
+		</center>
+		
+		
+		
+	<br />
+	<br />
+	<br />
+	<br />	
+	<br />
+	<br />
+	<br />
+	<br />
+	
+	<!-- Testimonials Vid -->	
+	<h1 id="RevTitle" class="display-1 text-center"> Featured Youtube Reviews </h1> <br /><br />
+	<div class="row">
+		<div class="container">
+			<div class="col-md-6">
+			<h1> Tess Consulta Reviews: </h1>
+			<h2>DON HULYO HOT SAUCE Orginal Fil-Tex Ghost Pepper Blend</h2>
+			<hr class="hr-warning" />
+			<img src="star.png" class="img-fluid" height="100px" width="400px" alt="5 star">
+			</div>
+			<div class="col-md-6">
+						<div class="embed-responsive embed-responsive-16by9">
+			  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9WkAulMLqyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			</div>
+	
+		</div>
+	</div>
+	
+	<br />
+	<br />
+	<br />
+	<br />
+	
+	<div class="row">
+		<div class="container">
+			<div class="col-md-6">
+			<div class="embed-responsive embed-responsive-16by9">
+			  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nuDWQyihvFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			</div>
+			<div class="col-md-6">
+			<h1>Pinoy Metahuman TRIES:</h1>
+			<h2>Putting 4 DON HULYO Hot Sauce Together</h2>
+			<hr class="hr-warning" />
+			<img src="star.png" class="img-fluid" height="100px" width="400px" alt="5 star">
+			</div>
+		</div>
+	</div>
+		
+	<br />
+	<br />
+	<br />
+	<br />
+	
+	<div class="row">
+		<div class="container">
+			<div class="col-md-6">
+			<h1> Salbahison attempts:</h1>
+			<h2>The Don Hulyo Spicy Challenge</h2>
+			<hr class="hr-warning" />
+			<img src="star.png" class="img-fluid" height="100px" width="400px" alt="5 star">
+			</div>
+			<div class="col-md-6">
+						<div class="embed-responsive embed-responsive-16by9">
+			  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fJCBfnfIBoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			</div>
+	
+		</div>
+	</div>
+	
+		<br />
+			<br />
+			<br />
+	
+
+	 <!-- ============= MULTIPLE BACKGROUNDS ================= -->
+		<div id="example1"></div>
+
+
+
+	 <!-- ======================================= FOOTER ======================================= -->
+	<footer class="col-sm-12 footer-bs">
+        <div class="row">
+			
+			<!-- LOGO & DESCRIPT -->
+        	<div class="col-sm-3 footer-brand animated fadeInLeft">
+            	<img src="logo.png" alt="logo banner" width="130" height="130" style="align-items: center; padding-bottom: 14px; ">
+                <p >Don Hulyo Hot Sauce is a small batch artisanal hot sauce company based in Manila founded in 2017. Our mission is to be part of every peoples lives by providing the highest quality and best tasting product anywhere in the world.</p>
+				<p class="copyright-text" style="margin-bottom: 5px;"> © 2021. All Rights Reserved</p>	
+            </div>
+			
+			<!-- MENU -->
+        	<div class="col-sm-2 footer-nav animated fadeInUp">
+            	<h4 class="text-center">Menu </h4>
+            	<div class="col-sm-6">
+                    <ul class="list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="products-condiments.html">Products</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            	<div class="col-sm-6">
+                    <ul class="list">
+                        <li><a href="Reviews.html">Reviews</a></li>
+                        <li><a href="FAQS.html">FAQs</a></li>
+                        <li><a href="Order_Form.html">Order Form</a></li>
+                        <li><a href="Contact_Us.html">Contact Us</a></li>
+					</ul>
+                </div>
+            </div>
+			
+			<!-- SOCIAL MEDIA -->
+        	<div class="col-sm-2 footer-social animated fadeInDown">
+            	<h4>Follow Us</h4>
+            	<ul>
+                	<li><a href="https://www.facebook.com/DonHulyoHotSauce/">Facebook</a></li>
+                	<li><a href="https://www.instagram.com/donhulyohotsauce/?hl=en">Instagram</a></li>
+                </ul>
+				<br>
+				<h4>Available in </h4>
+            	<ul>
+                	<li><a href="https://www.lazada.com.ph/shop/don-hulyo-hot-sauce/">Lazada</a></li>
+                	<li><a href="https://shopee.ph/donhulyohotsauce?categoryId=363&itemId=2430156565">Shopee</a></li>
+                </ul>
+            </div>
+			
+			<!-- CONTACT US  -->
+        	<div class="col-sm-3 footer-ns animated fadeInRight">
+            	<h4>Contact Us</h4>
+                <p><i class="glyphicon glyphicon-earphone"></i> 09175009324</p>
+				<p><i class="glyphicon glyphicon-envelope"></i>  donhulyohotsauce@gmail.com </p>
+				<p><i class="glyphicon glyphicon-comment"> <a href="https://www.facebook.com/DonHulyoHotSauce/"></a> </i> Don Hulyo Hot Sauce</p>
+				<p><i class="glyphicon glyphicon-map-marker"></i> 135 P.Santos St.Malibay, Pasay City, Metro Manila, Philippines </p>
+			
+            </div> 
+			
+			<!--WEB DEVELOPERS -->
+			<div class="col-sm-2 footer-social animated fadeInDown">
+            	<h4>Web Developers:</h4>
+				<p style="line-height: 25px;"> Alegre, Christina Beatrice G.</p>
+				<p style="line-height: 25px;"> Britanico, Elixeline E. </p>
+				<p style="line-height: 25px;"> Espejo, Tia Julienne P. </p>
+				<p style="line-height: 25px;"> Zaguirre, Stephanie Anne A. </p>
+			
+			</div>
+		</div>
+	</footer>
+    
+	  
+	
+	  
+	  
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
