@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  width: 80%;
+
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left:50px;
+}
+
+th {
+  border: 2px solid #ffebe0;
+  font-family: Century Gothic;
+  font-size: 20px;
+  color: #fff5e6;
+  text-align: center;
+  background-color: maroon;
+  padding: 5px;
+}
+
+td {
+  border: 2px solid white;
+  font-family: Century Gothic;
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+}
